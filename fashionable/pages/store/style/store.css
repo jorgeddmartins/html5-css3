@@ -1,0 +1,338 @@
+/* ==|== primary code =====================================================
+ Author: Jorge DD Martins
+ Code for Store Fashionable
+ ========================================================================== */
+
+section#square-Down-store {
+	width: 95%;
+	position: relative;
+	margin: auto; /* margin-bottom: 70px; */
+	margin-top: 3%;
+}
+
+header[class="top_Sl"] div.tit-pag-store {
+	width: 100%;
+	height: 28px;
+	margin-top: 3%;
+	background: url(../im/woman.png) no-repeat center;
+}
+
+section[role="main"] div.blk-top {
+	width: 33.15%;
+	display: inline-block;
+	padding-top: 1.7%;
+	padding-bottom: 1.7%;
+	position: relative;
+	margin-bottom: 1.5%;
+}
+
+section[role="main"] div.blk-top span.t-prod {font-size 17px;
+	color: #097792;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-left: 14%;
+	line-height: 59px;
+}
+
+section[role="main"] div.blk-store {
+	width: 33.15%;
+	display: inline-block;
+	padding-top: 8.9%;
+	padding-bottom: 8.9%;
+	position: relative;
+	margin-bottom: 1.5%;
+}
+
+section[role="main"] div.trace-along {
+	display: block;
+}
+
+section[role="main"] div.trace-along div.in-trace {
+	width: 33.15%;
+	height: 25px;
+	display: inline-block;
+}
+
+section[role="main"] div.trace-along div.in-trace hr {
+	margin: 0 auto;
+	position: relative;
+	width: 200px;
+}
+
+section[role="main"] div.ins-str {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+section[role="main"] div.ins-str div.blk-s {
+	width: 97%;
+	height: 100%;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+	-moz-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+	box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+}
+
+section[role="main"] div.box-out-smll {
+	background: #fff;
+	width: 16.6%;
+	padding-top: 12.5%;
+	padding-bottom: 12.05%;
+	display: inline-block;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+	-moz-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+	box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+}
+
+section[role="main"] div.box-out-smll div.out-smll-in {
+	width: 96%;
+	height: 97.3%;
+	margin-top: 2%;
+	margin-left: 2%;
+	position: absolute;
+	top: 0;
+}
+
+section[role="main"] div.box-out-smll div.out-smll-in img {
+	width: 100%;
+	height: auto;
+}
+
+section[role="main"] div.box-out-smll div.out-smll-in div.blk-hov {
+	background: transparent;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 1px;
+	opacity: 0;
+}
+
+section[role="main"] div.box-out-smll div.out-smll-in div.blk-hov:hover {
+	opacity: 0.65;
+}
+
+section[role="main"] div.box-out-smll div.out-smll-in div.blk-hov div.hov-ins {
+	background: #cddfeb url(../im/seecol.png) no-repeat;
+	width: 100%;
+	height: 50px;
+	cursor: pointer;
+	bottom: 0;
+	position: absolute;
+	background-position: 50% 50%;
+}
+
+section[role="main"] div.box-middle-smll {
+	width: 16.6%;
+	padding-top: 12.5%;
+	padding-bottom: 12.05%;
+	display: inline-block;
+	margin-left: 1.2%;
+	position: relative;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in img {
+	width: 95%;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul {
+	width: 100%;
+	height: 26px;
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul li {
+	display: inline-block;
+	height: 26px;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul li i.info {
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	background: url(../im/icons/info.png) no-repeat;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul li div {
+	width: 250px;
+	height: 250px;
+	padding: 10px;
+	background: #fff url(../im/icons/arrow-st.png) no-repeat;
+	background-position: 50% 90%;
+	position: relative;
+	z-index: 1;
+	display: none;
+	-webkit-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.4);
+	-moz-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.4);
+	box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.4);
+	border-radius: 200px;
+	position: relative;
+	top: -140px;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul li div h5 {
+	font-size: 13px;
+	color: #0896b9;
+	margin: 0;
+	text-align: left;
+	margin-top: 60px;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul li div h5 strong {
+	text-transform: uppercase;
+	padding-left: 17%;
+	letter-spacing: 2px;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul li div a.sales {
+	font-size: 28px;
+	color: #ca200a;
+	text-transform: uppercase;
+	margin-top: 8%;
+	display: inline-block;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul li div a.sales:hover {
+	text-decoration: none;
+}
+
+section[role="main"] div.box-middle-smll div.middle_in ul li:hover div {
+	display: block;
+}
+
+section[role="main"] div.box-out-big {
+	width: 48%;
+	padding-top: 12.5%;
+	padding-bottom: 12.05%;
+	display: inline-block;
+	position: relative;
+}
+
+section[role="main"] div.box-out-big div.out-big-in {
+	width: 97%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+	-moz-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+	box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.1);
+}
+
+section[role="main"] div.box-out-big div.out-big-in img {
+	width: 98.3%;
+	height: 97%;
+	margin-left: 0.86%;
+	margin-top: 0.86%;
+}
+
+section[role="main"] div.box-out-big div.out-big-in div.grid {
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+}
+
+section[role="main"] div.box-out-big div.out-big-in div.grid_tp {
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+	position: absolute;
+	top: 0;
+}
+
+section[role="main"] div.box-out-big div.out-big-in div.grid_tp div.board_info {
+	-webkit-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.2);
+	-moz-box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.2);
+	box-shadow: 0px 0px 10px rgba(87, 50, 50, 0.2);
+	width: 34%;
+	height: 33.3%;
+	position: absolute;
+	top: 43.5%;
+	left: 38.5%;
+	background: #fff url(../img/icons/link.png) no-repeat;
+	background-position: top 7px left 5px;
+	text-align: center;
+	opacity: 0.94;
+	-moz-transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+section[role="main"] div.box-out-big div.out-big-in div.grid_tp div.board_info p.txt_board {
+	width: 50%;
+	font-size: 22px;
+	color: #5d5a58;
+	text-decoration: line-through;
+	margin: 0;
+	margin-left: 25%;
+	margin-top: 5%;
+	line-height: 33px;
+}
+
+div.blk-s a.p-prev {
+	font-size: 16px;
+	color: #097792;
+	text-transform: uppercase;
+	line-height: 57px;
+	margin-left: 19%;
+}
+
+div.blk-s a.p-prev:hover {
+	text-decoration: none;
+}
+
+.bk_1 {
+	background: #fff;
+}
+
+.bk_bag {
+	background: #fff url(../im/icons/bag.png) no-repeat;
+	background-position: 98% 3%;
+}
+
+.bk_top {
+	background: #fff url(../im/icons/1212.png) no-repeat;
+	background-position: 5% 65%;
+}
+
+.bk-arrow {
+	background: #fff url(../im/icons/arrows.png) no-repeat;
+	background-position: 50% 55%;
+}
+
+.marg-aut {
+	margin: auto;
+}
+
+.fl-right {
+	float: right;
+}
+
+.tx-center {
+	text-align: center;
+}
+
+.tx-right {
+	text-align: right;
+}
+

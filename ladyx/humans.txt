@@ -1,0 +1,15 @@
+<Jorge DD>: <Jorge DD Martins>
+  Site: http://www.pinterest.com/jorgeddmartins/ 
+        http://www.about.me/jorgeddmartins/		
+  Twitter: http://www.twitter.com/jorgeddmartins/ 
+  LinkedIn: http://www.linkedin.com/in/jorgeddmartins/ 
+
+/* THANKS TO */
+  Names (& URL): http://www.jigowatt.co.uk/
+
+/* WORDPRESS THEME */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  
+
+   
