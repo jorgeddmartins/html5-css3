@@ -1,0 +1,123 @@
+/* =============================================================================
+                      TABLETS & SMARTPHONES
+   ========================================================================== */
+
+
+@media screen and (max-width: 1024px) {
+	
+	section[role="main"] div.content div.rcloud-info {
+    height: 350px;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1008px) {
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  div.home_r64, 
+  header.top_head nav[role="navigation"] a.l-r64, 
+  header.top_head nav[role="navigation"] div.nav-right .conta_mob, 
+  header.top_head nav[role="navigation"] div.nav-right .serch_mob, 
+  header.top_head nav[role="navigation"] div.nav-right .nav-menu, footer .blfoot_mob {
+    display: none;
+  }
+
+  header.top_head nav[role="navigation"] div.nav-right .nav-menu_mob, 
+  div.mob_home_r64, 
+  div.mob_home_r64 div.mob_cloud {
+    display: block;
+  }
+
+  header.top_head {
+    height: 76px;
+  }
+
+  header.top_head nav[role="navigation"] {
+    width: 94%;
+  }
+
+  header.top_head nav[role="navigation"] div.logo-stage {
+    position: absolute;
+    width: 130px;
+    left: 0;
+    top: -5px;
+  }
+
+  section[role="main"] div.content {
+    width: 100%;
+  }
+
+  section[role="main"] div.content figure.str-img {
+    margin-top: 50px;
+  }
+
+  section[role="main"] div.content figure.str-img div.img-main div button.cloudbtn {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 18px;
+  }
+
+  p.descr-blk {
+    margin: auto;
+    width: 83%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  div.tt-info span {
+    width: 100%;
+    font-size: 25px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: -2px;
+  }
+
+  div.tt-info button.btn-arrtop {
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    font-size: 20px;
+    max-width: 210px;
+  }
+
+  footer div.blk-foot div.blfoot-in {
+    width: 75.33%;
+    margin: auto;
+    float: none;
+  }
+
+  
+}
+
+
+
+
+
+
+ 
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+
